@@ -1,0 +1,51 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore virtual environments
+env/
+venv/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.bak
+
+# Ignore content in data directories but keep directory structure
+data/**/*
+!data/**/.gitkeep
+price_data/**/*
+!price_data/**/.gitkeep
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*_backup.*
+debug_*.txt
+*.json
+
+# Ignore binary files and large generated outputs
+*.pyc
+*.pyo
+*.pyd
+.coverage
+htmlcov/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+webui2/node_modules/
+hyperliquid-stats-web/node_modules/
