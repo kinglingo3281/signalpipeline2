@@ -2,6 +2,8 @@
 
 # Liquidation Analysis Pipeline
 
+[![CI](https://github.com/kinglingo3281/signalpipeline2/actions/workflows/ci.yml/badge.svg)](https://github.com/kinglingo3281/signalpipeline2/actions/workflows/ci.yml)
+
 Automated pipeline that fetches trader positions from Hyperliquid, performs liquidation analysis with cascade probability modeling, and outputs enhanced JSON analysis files consumed by the SSE server for real-time client distribution.
 
 ## Architecture
